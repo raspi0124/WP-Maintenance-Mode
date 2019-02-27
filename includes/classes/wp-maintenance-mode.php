@@ -92,8 +92,7 @@ if (!class_exists('WP_Maintenance_Mode')) {
 					'redirection' => '',
 					'exclude' => array(
 						0 => 'feed',
-						1 => 'wp-login',
-						2 => 'login'
+						1 => 'wp-login.php',
 					),
 					'notice' => 1,
 					'admin_link' => 0
